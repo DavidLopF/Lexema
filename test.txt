@@ -1,0 +1,33 @@
+/*
+Compilers Virtual Classroom 
+Autor: Fran Romero
+*/
+ClassRoom Compilers
+Begin
+   Metadata
+   Begin
+      Subject: Compiladores
+      Schedule: [Lunes: 9-11, Viernes: 2-4]
+   End //End Metadata
+
+   Professors
+   Begin
+      Professor: [name: Fran Romero, email: fromeroa@unbosque.edu.co]
+      Professor: [name: Hernando Camargo, email: hernandocamargo@unbosque.edu.co]
+   End //End Professors
+
+   Modules
+   Begin
+     Module
+     Begin
+        Name: Lexical Analysis
+        Units: [Regular Expressions, Thompson Algorithm, Tokenizers]
+     End //End Module
+     Module
+     Begin
+        Name: Syntactic Analysis
+        Units: [Alphabets, Grammars, Parsing Algorithms]
+     End //End Module
+   End //End Modules
+End //End Classroom
+

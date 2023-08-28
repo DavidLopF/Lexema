@@ -1,0 +1,5 @@
+Comentario,//.*?\n|/\*.*?\*/,Token_Comentario
+Identificador,[a-zA-Z_][a-zA-Z0-9_]*,Token_Identificador
+Palabra clave,Begin|End,Token_PalabraClave
+Símbolo,[\[\]:,],Token_Simbolo
+
