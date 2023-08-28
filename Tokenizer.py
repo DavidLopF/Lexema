@@ -60,11 +60,8 @@ def mostrar_resultado(lexemas):
     textlexemas = ""
     for lexema in lexemas:
         textlexemas += lexema[0] + " -> " + lexema[1] + "->" + str(lexema[2]) + "," + str(lexema[3]) +   "\n"
-    
-
-    
+        
     lexemas_label = tk.Label(root,text=textlexemas)
-    lexemas_label.config(width=100)
     lexemas_label.pack()
     root.mainloop()
 
@@ -83,7 +80,7 @@ def principal():
     lexemas = tokenizar_codigo_fuente(codigo_fuente, lista_tokens)
     print("-----------------------------------lexemas ------------------------------------------ ")
     for lexema in lexemas:
-        print(lexema[2])
+        print(lexema)
 
     mostrar_resultado(lexemas)
 
